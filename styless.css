@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    color: #fff;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image:url("dolapo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: -36%;
+    position: fixed;
+
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 40px;
+    text-decoration: none;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+    font-size: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color:#f9004d;
+}
+.login{
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.register{
+    border-radius: 6px;
+    background: #f9004d;
+    text-decoration: none;
+    font-size: 20px;
+    padding:9px 25px;
+    margin-right:120px;
+}
+.content{
+    margin-top: 10px;
+    max-width: 500px;
+}
+.content p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.content h2{
+    font-size: 60px;
+}
+a{
+    color: #fff;
+}
+.hire{
+    color:#000;
+    text-decoration: none;
+    background: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 9px 25px;
+}
+.link.hire:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.link{
+    margin-top: 20px;
+}
